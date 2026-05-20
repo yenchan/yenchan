@@ -62,9 +62,15 @@ Mapping CRUD operations to REST methods with structured schema tables.
 
 ## ✦ Connect 4
 
-A playful interactive element for my profile README — because product thinking should be useful, but it can also be fun.
+<p align="center">
+  <a href="YOUR_CONNECT4_LINK_HERE" target="_blank">
+    <img src="YOUR_CONNECT4_PREVIEW_IMAGE_OR_GIF" alt="Connect 4 preview" width="600"/>
+  </a>
+</p>
 
-[Play Connect 4](CONNECT4_LINK)
+<p align="center">
+  <a href="YOUR_CONNECT4_LINK_HERE">Play Connect 4</a>
+</p>
 
 ---
 
@@ -87,12 +93,6 @@ A playful interactive element for my profile README — because product thinking
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yenchan/yenchan/output/github-contribution-grid-snake.svg">
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/yenchan/yenchan/output/github-contribution-grid-snake.svg">
 </picture>
-
-## ✦ Current Focus
-
-- Building JavaScript fundamentals through CFGdegree and self-led projects
-- Strengthening product thinking through hands-on digital work
-- Exploring how interaction design and storytelling shape better user experiences
 
 ---
 
