@@ -1,17 +1,38 @@
-name: generate animation
+You’re in the editor now. The remaining problem is that your workflow still has the old content in it, so the next step is to replace lines 1–17 with the corrected version.
+
+Replace everything
+Click inside the editor, press Cmd+A on Mac or Ctrl+A on Windows, then paste this:
+
+text
+name: generate snake
 
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: yenchan
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
