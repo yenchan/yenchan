@@ -20,7 +20,7 @@
 
 ---
 
-### ✦ About Me
+### ✦ About Me <img src="./synchronised%20swimmers.gif" width="45" alt="synchronised swimmers gif" />
 
 ```yaml
 background   : Founder of I Havent the Foggiest
