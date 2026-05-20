@@ -42,11 +42,42 @@ based in     : London
 
 ---
 
-### ✦ GitHub Stats
+## ✦ Current Focus
 
-<img src="https://github-readme-stats.vercel.app/api?username=yenchan&show_icons=true&hide_border=true&title_color=b8924a&icon_color=b8924a&text_color=333333&bg_color=ffffff" height="150"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yenchan&layout=compact&hide_border=true&title_color=b8924a&text_color=333333&bg_color=ffffff" height="150"/>
+- Building JavaScript fundamentals through CFGdegree and self-led projects
+- Strengthening product thinking through hands-on digital work
+- Exploring how interaction design and storytelling shape better user experiences
 
+---
+
+## ✦ Featured Work
+
+### Ice Cream Ordering App
+A JavaScript project focused on logic, stock handling, DOM updates, and interactive user choices.
+
+### Monopoly Arbitrage, Building a simple API
+Mapping CRUD operations to REST methods with structured schema tables. 
+
+---
+
+## ✦ Connect 4
+
+A playful interactive element for my profile README — because product thinking should be useful, but it can also be fun.
+
+[Play Connect 4](CONNECT4_LINK)
+
+---
+
+## ✦ Tech Stack
+
+`JavaScript` `HTML` `CSS` `Git` `GitHub` `Figma` `Node.js`
+
+---
+
+## ✦ Links
+
+- [LinkedIn]([(https://www.linkedin.com/in/yenpchan/))
+- Website: https://likefoggiest.com/
 ---
 
 ### ✦ Contribution
@@ -57,6 +88,13 @@ based in     : London
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/yenchan/yenchan/output/github-contribution-grid-snake.svg">
 </picture>
 
+## ✦ Current Focus
+
+- Building JavaScript fundamentals through CFGdegree and self-led projects
+- Strengthening product thinking through hands-on digital work
+- Exploring how interaction design and storytelling shape better user experiences
+
+---
 
 ![snake](https://raw.githubusercontent.com/yenchan/yenchan/output/dist/github-contribution-grid-snake.svg)
 
