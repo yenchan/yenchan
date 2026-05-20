@@ -1,6 +1,3 @@
-Yes — here’s the complete code with your existing layout kept, and the swimmers GIF added next to the animated typing text. The typing SVG still uses the same animation source, and GIFs embedded with <img> remain animated in GitHub READMEs when the source points to the raw .gif file.
-
-xml
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:faf8f5,100:f0ebe3&height=180&section=header&text=Yen%20Chan&fontSize=52&fontColor=1a1a1a&fontAlignY=38&desc=Fashion%20%C3%97%20Digital%20Marketing%20%C3%97%20Tech%20Product&descAlignY=60&descSize=15&descColor=9d8a7a&animation=fadeIn" />
