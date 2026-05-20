@@ -1,20 +1,24 @@
-<table>
-  <tr>
-    <td>
-      <img src="https://capsule-render.vercel.app/api?type=waving&color=0:faf8f5,100:f0ebe3&height=180&section=header&text=Yen%20Chan&fontSize=52&fontColor=1a1a1a&fontAlignY=38&desc=Fashion%20%C3%97%20Digital%20Marketing%20%C3%97%20Tech%20Product&descAlignY=60&descSize=15&descColor=9d8a7a&animation=fadeIn" />
-    </td>
-    <td valign="middle" style="padding-left:16px;">
-      <img src="https://raw.githubusercontent.com/yenchan/yenchan/main/img-for-cart.gif" width="120" alt="cart gif" />
-    </td>
-  </tr>
-</table>
----
+<div align="center">
 
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=22&duration=3000&pause=1000&color=b8924a&center=true&vCenter=true&width=600&lines=Aspiring+Tech+Product+Manager;Fashion+Design+%C3%97+Digital+Marketing;Building+at+the+intersection+of+creativity+%26+tech"
+      alt="Typing SVG"
+    />
+  </a>
+  <img
+    src="https://raw.githubusercontent.com/yenchan/yenchan/main/img-for-cart.gif"
+    width="90"
+    alt="swimmers gif"
+  />
+</p>
+---
 <br/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=22&duration=3000&pause=1000&color=b8924a&center=true&vCenter=true&width=600&lines=Aspiring+Tech+Product+Manager;Fashion+Design+%C3%97+Digital+Marketing;Building+at+the+intersection+of+creativity+%26+tech)](https://git.io/typing-svg)
 
-<div align="center">
+
 
 
 
