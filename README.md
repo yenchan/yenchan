@@ -31,6 +31,8 @@ based in     : London, UK.
 ```
 
 ---
+### ✦ Tech Stack
+<img src="./tech-globe-simple.svg" width="460" alt="Tech stack globe" />
 
 ### ✦ Tech Stack
 
