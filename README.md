@@ -32,7 +32,11 @@ based in     : London, UK.
 
 ---
 ### ✦ Tech Stack
-<img src="./tech-globe-simple.svg" width="460" alt="Tech stack globe" />
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,mysql,figma,git,github,vscode,ps,typescript&perline=6&theme=light" />
+  </a>
+</p>
 
 ### ✦ Tech Stack
 
