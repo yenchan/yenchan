@@ -1,100 +1,56 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
-const issueTitle = process.env.ISSUE_TITLE || "";
-const issueBody = process.env.ISSUE_BODY || "";
+const issueTitle = process.env.ISSUE_TITLE || '';
+const issueBody = process.env.ISSUE_BODY || '';
 
 let column = null;
-
 const titleMatch = issueTitle.match(/connect4-move-(\d+)/i);
-if (titleMatch) {
-  column = Number(titleMatch[1]);
-}
-
+if (titleMatch) column = Number(titleMatch[1]);
 if (!column) {
   const bodyMatch = issueBody.match(/\b([1-7])\b/);
-  if (bodyMatch) {
-    column = Number(bodyMatch[1]);
-  }
+  if (bodyMatch) column = Number(bodyMatch[1]);
 }
+if (!column || column < 1 || column > 7) throw new Error(`Could not determine a valid column from issue. Title: ${issueTitle} Body: ${issueBody}`);
 
-if (!column || column < 1 || column > 7) {
-  throw new Error(`Could not determine a valid column from issue. Title: ${issueTitle} Body: ${issueBody}`);
-}
+const gameStatePath = path.join(__dirname, '..', 'data', 'gameState.json');
+const gameState = JSON.parse(fs.readFileSync(gameStatePath, 'utf8'));
+if (gameState.winner || gameState.isDraw) throw new Error('Game is already finished.');
 
-const gameStatePath = path.join(__dirname, "..", "data", "gameState.json");
-const gameState = JSON.parse(fs.readFileSync(gameStatePath, "utf8"));
-
-if (gameState.winner || gameState.isDraw) {
-  throw new Error("Game is already finished.");
-}
-
-const columnIndex = column - 1;
-let placedRow = -1;
-
+const col = column - 1;
+let rowPlaced = -1;
 for (let row = gameState.rows - 1; row >= 0; row--) {
-  if (!gameState.board[row][columnIndex]) {
-    gameState.board[row][columnIndex] = gameState.currentPlayer;
-    placedRow = row;
+  if (!gameState.board[row][col]) {
+    gameState.board[row][col] = gameState.currentPlayer;
+    rowPlaced = row;
     break;
   }
 }
+if (rowPlaced === -1) throw new Error(`Column ${column} is full.`);
 
-if (placedRow === -1) {
-  throw new Error(`Column ${column} is full.`);
-}
+gameState.moveHistory.push({ player: gameState.currentPlayer, column, row: rowPlaced + 1 });
 
-function checkDirection(board, row, col, rowStep, colStep, player) {
-  let count = 0;
-  let r = row;
-  let c = col;
-
-  while (
-    r >= 0 &&
-    r < board.length &&
-    c >= 0 &&
-    c < board[0].length &&
-    board[r][c] === player
-  ) {
-    count++;
-    r += rowStep;
-    c += colStep;
+function count(board, r, c, dr, dc, player) {
+  let n = 0;
+  while (r >= 0 && r < board.length && c >= 0 && c < board[0].length && board[r][c] === player) {
+    n += 1;
+    r += dr;
+    c += dc;
   }
-
-  return count;
+  return n;
 }
 
-function hasWinner(board, row, col, player) {
-  const directions = [
-    [0, 1],
-    [1, 0],
-    [1, 1],
-    [1, -1],
-  ];
-
-  return directions.some(([rowStep, colStep]) => {
-    const forward = checkDirection(board, row, col, rowStep, colStep, player);
-    const backward = checkDirection(board, row, col, -rowStep, -colStep, player);
-    return forward + backward - 1 >= 4;
-  });
+function hasWinner(board, r, c, player) {
+  return [[0,1],[1,0],[1,1],[1,-1]].some(([dr, dc]) => count(board, r, c, dr, dc, player) + count(board, r, c, -dr, -dc, player) - 1 >= 4);
 }
 
 const player = gameState.currentPlayer;
-
-gameState.moveHistory.push({
-  player,
-  column,
-  row: placedRow + 1
-});
-
-if (hasWinner(gameState.board, placedRow, columnIndex, player)) {
+if (hasWinner(gameState.board, rowPlaced, col, player)) {
   gameState.winner = player;
+} else if (gameState.board.every(row => row.every(cell => cell))) {
+  gameState.isDraw = true;
 } else {
-  const boardFull = gameState.board.every((row) => row.every((cell) => cell));
-  gameState.isDraw = boardFull;
-  if (!boardFull) {
-    gameState.currentPlayer = player === "gold" ? "red" : "gold";
-  }
+  gameState.currentPlayer = player === 'gold' ? 'red' : 'gold';
 }
 
-fs.writeFileSync(gameStatePath, JSON.stringify(gameState, null, 2) + "\n");
+fs.writeFileSync(gameStatePath, JSON.stringify(gameState, null, 2) + '\n');
