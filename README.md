@@ -33,13 +33,27 @@ based in     : London, UK.
 ---
 ### ✦ Tech Stack
 
-<p align="center">
-  <img src="./Skills_Animation_White.gif" width="500" alt="Tech stack globe"/>
-</p>
+<table>
+<tr>
+<td valign="top" width="50%">
+<img src="./Skills_Animation_White.gif" width="100%" alt="Tech stack globe"/>
+</td>
+<td valign="top" width="50%">
 
+**Current Learning**
+- Transitioning into Tech Product Management
+- Building JavaScript fundamentals through CFGdegree
+- Exploring React.js and API Development
+- Strengthening UX thinking and product strategy
 
-`JavaScript` `HTML` `CSS` `Git` `GitHub` `Figma` `Node.js`
+**Tools I Use**
+- Digital Marketing · Figma · Canva
+- JavaScript · Node.js · MySQL
+- Jira · Miro · CLO3D
 
+</td>
+</tr>
+</table>
 ---
 
 ## ✦ Current Focus
