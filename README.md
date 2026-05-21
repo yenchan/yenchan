@@ -32,19 +32,13 @@ based in     : London, UK.
 
 ---
 ### ✦ Tech Stack
+
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,mysql,figma,git,github,vscode,ps,typescript&perline=6&theme=light" />
-  </a>
+  <img src="./Skills_Animation_White.gif" width="500" alt="Tech stack globe"/>
 </p>
 
-### ✦ Tech Stack
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ffffff?style=for-the-badge&logo=javascript&logoColor=000000)
-![Node.js](https://img.shields.io/badge/Node.js-ffffff?style=for-the-badge&logo=node.js&logoColor=000000)
-![Git](https://img.shields.io/badge/Git-ffffff?style=for-the-badge&logo=git&logoColor=000000)
-![GitHub](https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&logo=github&logoColor=000000)
-![Figma](https://img.shields.io/badge/Figma-ffffff?style=for-the-badge&logo=figma&logoColor=000000)
+`JavaScript` `HTML` `CSS` `Git` `GitHub` `Figma` `Node.js`
 
 ---
 
@@ -69,14 +63,6 @@ Mapping CRUD operations to REST methods with structured schema tables.
 
 ---
 
-### ✦ Tech Stack
-
-<p align="center">
-  <img src="./Skills_Animation_White.gif" width="500" alt="Tech stack globe"/>
-</p>
-
-
-`JavaScript` `HTML` `CSS` `Git` `GitHub` `Figma` `Node.js`
 
 ---
 
