@@ -386,6 +386,13 @@
         stroke-width="2"
       />
     
+        <circle
+          cx="220"
+          cy="445"
+          r="22"
+          fill="#B8924A"
+        />
+      
       <rect
         x="260"
         y="400"

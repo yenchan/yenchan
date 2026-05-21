@@ -72,7 +72,7 @@ Mapping CRUD operations to REST methods with structured schema tables.
 <!-- CONNECT4:START -->
 ![Connect 4 board](./assets/connect4-board.svg)
 
-**Current turn: Gold**
+**Current turn: Espresso**
 
 **Make a move:**  
 [1](../../issues/new?template=connect4-move.yml&title=connect4-move-1) ·
