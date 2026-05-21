@@ -64,9 +64,6 @@ Mapping CRUD operations to REST methods with structured schema tables.
 
 ---
 
-
----
-
 ## ✦ Links
 
 - [LinkedIn](https://www.linkedin.com/in/yenpchan/)
