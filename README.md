@@ -39,11 +39,6 @@ based in     : London, UK.
 </td>
 <td valign="top" width="50%">
 
-**Current Learning**
-- Transitioning into Tech Product Management
-- Building JavaScript fundamentals through CFGdegree
-- Exploring React.js and API Development
-- Strengthening UX thinking and product strategy
 
 **Tools I Use**
 - Digital Marketing · Figma · Canva
