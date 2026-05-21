@@ -33,11 +33,10 @@ based in     : London, UK.
 
 **Tools**
 ### ✦ Tech Stack
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,mysql,figma,git,github,vscode,ps,typescript&perline=6&theme=light" />
-  </a>
-</p>
+
+<div style="display: flex; align-items: flex-start;">
+  <img src="./Skills_Animation_White.gif" width="50%" alt="Tech stack globe"/>
+  <div style="padding-left: 20px; width: 50%;">
 
 
 
