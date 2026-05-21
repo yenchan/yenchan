@@ -72,16 +72,16 @@ Mapping CRUD operations to REST methods with structured schema tables.
 <!-- CONNECT4:START -->
 ![Connect 4 board](./assets/connect4-board.svg)
 
-**Current turn: Espresso**
+**Current turn: Gold**
 
 **Make a move:**  
-[1](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-1&column=1) ·
-[2](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-2&column=2) ·
-[3](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-3&column=3) ·
-[4](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-4&column=4) ·
-[5](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-5&column=5) ·
-[6](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-6&column=6) ·
-[7](https://github.com/yenchan/yenchan/issues/new?template=connect4-move.yml&title=connect4-move-7&column=7)
+[1](../../issues/new?template=connect4-move.yml&title=connect4-move-1) ·
+[2](../../issues/new?template=connect4-move.yml&title=connect4-move-2) ·
+[3](../../issues/new?template=connect4-move.yml&title=connect4-move-3) ·
+[4](../../issues/new?template=connect4-move.yml&title=connect4-move-4) ·
+[5](../../issues/new?template=connect4-move.yml&title=connect4-move-5) ·
+[6](../../issues/new?template=connect4-move.yml&title=connect4-move-6) ·
+[7](../../issues/new?template=connect4-move.yml&title=connect4-move-7)
 <!-- CONNECT4:END -->
 ---
 
