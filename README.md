@@ -31,14 +31,11 @@ based in     : London, UK.
 
 ---
 
-**Tools**
 ### ✦ Tech Stack
 
 <div style="display: flex; align-items: flex-start;">
   <img src="./Skills_Animation_White.gif" width="50%" alt="Tech stack globe"/>
   <div style="padding-left: 20px; width: 50%;">
-
-
 
 
 </td>
