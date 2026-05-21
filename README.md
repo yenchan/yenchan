@@ -97,7 +97,7 @@ A community game played directly from this README.
 
 ## ✦ Links
 
-- [LinkedIn]([(https://www.linkedin.com/in/yenpchan/))
+- [LinkedIn](https://www.linkedin.com/in/yenpchan/)
 - Website: https://likefoggiest.com/
 ---
 
