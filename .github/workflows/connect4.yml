@@ -1,7 +1,3 @@
-Perfect — this is the right place for the workflow file. You are now creating connect4.yml inside .github/workflows/, which is exactly where GitHub Actions workflow files belong.
-
-Paste this into connect4.yml
-text
 name: Connect 4 README
 
 on:
