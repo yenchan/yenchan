@@ -85,7 +85,12 @@ Mapping CRUD operations to REST methods with structured schema tables.
 <!-- CONNECT4:END -->
 ---
 
-## ✦ Tech Stack
+### ✦ Tech Stack
+
+<p align="center">
+  <img src="./Skills_Animation_White.gif" width="500" alt="Tech stack globe"/>
+</p>
+
 
 `JavaScript` `HTML` `CSS` `Git` `GitHub` `Figma` `Node.js`
 
