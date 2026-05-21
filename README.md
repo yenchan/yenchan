@@ -67,21 +67,26 @@ Implementing an iterative database to analyse, understand and improve strategies
 ### Monopoly Arbitrage. Building an API
 Mapping CRUD operations to REST methods with structured schema tables. 
 
-
-
 ---
 
 ## ✦ Connect 4
 
-<p align="center">
-  <a href="YOUR_CONNECT4_LINK_HERE" target="_blank">
-    <img src="YOUR_CONNECT4_PREVIEW_IMAGE_OR_GIF" alt="Connect 4 preview" width="600"/>
-  </a>
-</p>
+A community game played directly from this README.
 
-<p align="center">
-  <a href="YOUR_CONNECT4_LINK_HERE">Play Connect 4</a>
-</p>
+<!-- CONNECT4:START -->
+![Connect 4 board](./assets/connect4-board.svg)
+
+**Current turn: Gold**
+
+**Make a move:**  
+[1](../../issues/new?template=connect4-move.yml&title=connect4-move-1) ·
+[2](../../issues/new?template=connect4-move.yml&title=connect4-move-2) ·
+[3](../../issues/new?template=connect4-move.yml&title=connect4-move-3) ·
+[4](../../issues/new?template=connect4-move.yml&title=connect4-move-4) ·
+[5](../../issues/new?template=connect4-move.yml&title=connect4-move-5) ·
+[6](../../issues/new?template=connect4-move.yml&title=connect4-move-6) ·
+[7](../../issues/new?template=connect4-move.yml&title=connect4-move-7)
+<!-- CONNECT4:END -->
 
 ---
 
