@@ -33,7 +33,7 @@ based in     : London, UK.
 ---
 ### ✦ Tech Stack
 
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="20">
 <tr>
 <td valign="top" width="50%">
 <img src="./Skills_Animation_White.gif" width="100%" alt="Tech stack globe"/>
@@ -48,8 +48,11 @@ based in     : London, UK.
 
 **Tools I Use**
 - Digital Marketing · Figma · Canva
-- JavaScript · Node.js · MySQL
-- Jira · Miro · CLO3D
+- JavaScript · Node.js · MySQL · TypeScript
+- Jira · Miro · CLO3D · Microsoft
+- HTML · CSS · React · Node.js
+- Photoshop · Illustrator · Git · GitHub
+- VS Code · Figma
 
 </td>
 </tr>
