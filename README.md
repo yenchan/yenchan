@@ -33,7 +33,7 @@ based in     : London, UK.
 ---
 ### ✦ Tech Stack
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td valign="top" width="50%">
 <img src="./Skills_Animation_White.gif" width="100%" alt="Tech stack globe"/>
