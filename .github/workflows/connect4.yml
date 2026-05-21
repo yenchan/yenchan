@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   updateGame:
-if: startsWith(github.event.issue.title, 'connect4-move-')
+    if: ${{ startsWith(github.event.issue.title, 'connect4-move-') }}
     runs-on: ubuntu-latest
 
     steps:
@@ -49,6 +49,9 @@ if: startsWith(github.event.issue.title, 'connect4-move-')
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            })
               issue_number: context.issue.number,
               state: "closed"
             })
