@@ -1,20 +1,13 @@
 name: Connect 4 Move
-description: Submit a move for the README Connect 4 game
-title: "connect4-move"
-labels: ["connect4"]
+description: Submit a Connect 4 move
+labels:
+  - connect4
 body:
-  - type: dropdown
+  - type: input
     id: column
     attributes:
-      label: Choose a column
-      description: Select the column where you want to drop your piece
-      options:
-        - "1"
-        - "2"
-        - "3"
-        - "4"
-        - "5"
-        - "6"
-        - "7"
+      label: Column
+      description: Pick a column from 1 to 7
+      placeholder: "1"
     validations:
       required: true
