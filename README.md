@@ -23,11 +23,11 @@
 ### ✦ About Me <img src="./synchronised%20swimmers.gif" width="75" alt="synchronised swimmers gif" />
 
 ```yaml
-background   : Founder of I Havent the Foggiest
+background   : Founder of I Haven't the Foggiest
 currently    : Transitioning into Tech Product Management
 skills       : Digital Marketing · JavaScript · API Development · UX Thinking . Data SQL
 interests    : Finding solutions to challenges
-based in     : London
+based in     : London, UK.
 ```
 
 ---
@@ -52,11 +52,16 @@ based in     : London
 
 ## ✦ Featured Work
 
-### Ice Cream Ordering App
+### Ice Cream Boutique. Creating a web App
 A JavaScript project focused on logic, stock handling, DOM updates, and interactive user choices.
 
-### Monopoly Arbitrage, Building a simple API
+### Aid Relief Recovery. Managing a MYSQL database
+Implementing an iterative database to analyse, understand and improve strategies
+
+### Monopoly Arbitrage. Building an API
 Mapping CRUD operations to REST methods with structured schema tables. 
+
+
 
 ---
 
