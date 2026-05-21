@@ -1,0 +1,58 @@
+Perfect — this is the right place for the workflow file. You are now creating connect4.yml inside .github/workflows/, which is exactly where GitHub Actions workflow files belong.
+
+Paste this into connect4.yml
+text
+name: Connect 4 README
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  updateGame:
+    if: contains(github.event.issue.labels.*.name, 'connect4')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Process move
+        run: node scripts/processMove.js
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+
+      - name: Render board
+        run: node scripts/renderBoard.js
+
+      - name: Update README
+        run: node scripts/updateReadme.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/gameState.json assets/connect4-board.svg
+          git commit -m "Update Connect 4 board" || echo "No changes to commit"
+          git push
+
+      - name: Close move issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            })
