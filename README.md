@@ -21,11 +21,11 @@
 
 ### ✦ About Me <img src="./synchronised%20swimmers.gif" width="75" alt="synchronised swimmers gif" />
 
-- Background: Founder of I Haven't the Foggiest
-- Currently: Transitioning into Tech Product Management
-- Skills: Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
-- Interests: Finding solutions to challenges 
-- Based: London
+Background: Founder of I Haven't the Foggiest
+Currently: Transitioning into Tech Product Management
+Skills: Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
+Interests: Finding solutions to challenges 
+Based: London
 
 ---
 
