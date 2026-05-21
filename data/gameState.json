@@ -44,7 +44,7 @@
       "gold",
       "",
       "",
-      "",
+      "red",
       ""
     ],
     [
@@ -57,7 +57,7 @@
       "gold"
     ]
   ],
-  "currentPlayer": "red",
+  "currentPlayer": "gold",
   "winner": "",
   "isDraw": false,
   "moveHistory": [
@@ -105,6 +105,11 @@
       "player": "gold",
       "column": 7,
       "row": 6
+    },
+    {
+      "player": "red",
+      "column": 6,
+      "row": 5
     }
   ]
 }
