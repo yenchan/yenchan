@@ -22,7 +22,7 @@
 ### ✦ About Me <img src="./synchronised%20swimmers.gif" width="75" alt="synchronised swimmers gif" />
 
 
-```yaml
+```
 background : Founder of I Haven't the Foggiest
 currently  : Transitioning into Tech Product Management
 skills     : Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
