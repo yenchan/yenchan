@@ -23,11 +23,11 @@
 
 
 ```yaml
-background  : Founder of I Haven't the Foggiest
-currently   : Transitioning into Tech Product Management
-skills      : Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
-interests   : Finding solutions to challenges
-based in    : London, UK.
+background : Founder of I Haven't the Foggiest
+currently  : Transitioning into Tech Product Management
+skills     : Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
+interests  : Finding solutions to challenges
+based in   : London, UK.
 ```
 
 ---
