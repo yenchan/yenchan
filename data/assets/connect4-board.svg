@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="640" viewBox="0 0 700 640">
+  <rect width="700" height="640" fill="#F7F3EC"/>
+  <g stroke="#D8CFC1" stroke-width="2">
+    <line x1="100" y1="40" x2="100" y2="580"/>
+    <line x1="180" y1="40" x2="180" y2="580"/>
+    <line x1="260" y1="40" x2="260" y2="580"/>
+    <line x1="340" y1="40" x2="340" y2="580"/>
+    <line x1="420" y1="40" x2="420" y2="580"/>
+    <line x1="500" y1="40" x2="500" y2="580"/>
+    <line x1="580" y1="40" x2="580" y2="580"/>
+    <line x1="660" y1="40" x2="660" y2="580"/>
+
+    <line x1="100" y1="40" x2="660" y2="40"/>
+    <line x1="100" y1="130" x2="660" y2="130"/>
+    <line x1="100" y1="220" x2="660" y2="220"/>
+    <line x1="100" y1="310" x2="660" y2="310"/>
+    <line x1="100" y1="400" x2="660" y2="400"/>
+    <line x1="100" y1="490" x2="660" y2="490"/>
+    <line x1="100" y1="580" x2="660" y2="580"/>
+  </g>
+
+  <g fill="#B8924A" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">
+    <text x="140" y="25">1</text>
+    <text x="220" y="25">2</text>
+    <text x="300" y="25">3</text>
+    <text x="380" y="25">4</text>
+    <text x="460" y="25">5</text>
+    <text x="540" y="25">6</text>
+    <text x="620" y="25">7</text>
+  </g>
+</svg>
