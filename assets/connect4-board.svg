@@ -533,4 +533,11 @@
         stroke="#D8CFC1"
         stroke-width="2"
       />
-    </svg>
+    
+        <circle
+          cx="620"
+          cy="535"
+          r="22"
+          fill="#B8924A"
+        />
+      </svg>
