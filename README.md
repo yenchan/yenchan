@@ -21,12 +21,16 @@
 
 ### ✦ About Me <img src="./synchronised%20swimmers.gif" width="75" alt="synchronised swimmers gif" />
 
-Background: I Haven't the Foggiest brand. Founder & Creative Director. Designed, and co-built likefoggiest.com- 
-end-to-end web design, brand identity, and e-commerce experience using WordPress · Elementor · WooCommerce
-Currently: Transitioning into Tech Product Management
-Skills: Digital Marketing · JavaScript · API Development · UX/UI Thinking · Data SQL
-Interests: Finding solutions to challenges 
-Based: London
+Hi, I'm Yen — a London-based founder and creative director transitioning into Tech Product Management.
+
+For over 8 years I designed, and ran I Haven't the Foggiest, a premium fashion brand. I
+designed the brand identity, designed and co-built the e-commerce experience, and scaled wholesale distribution to 25+
+high-end boutiques and department stores across the globe, iterating and sustaining a live product
+in a demanding market, with real customers, real wholesale buyers and real stakes. Every decision I made was a product
+decision: who is the user, what do they need, what do we build next, does it work?
+
+I'm now formalising that instinct with technical skills: JavaScript, React, Node.js, APIs, SQL and
+UX, through Code First Girl's Gdegree, and building projects that sit at the intersection of creativity and tech.
 
 ---
 
