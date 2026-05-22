@@ -24,7 +24,7 @@
 Background: I Haven't the Foggiest brand. Founder & Creative Director. Designed, and co-built likefoggiest.com- 
 end-to-end web design, brand identity, and e-commerce experience using WordPress · Elementor · WooCommerce
 Currently: Transitioning into Tech Product Management
-Skills: Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
+Skills: Digital Marketing · JavaScript · API Development · UX/UI Thinking · Data SQL
 Interests: Finding solutions to challenges 
 Based: London
 
