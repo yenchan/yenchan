@@ -21,7 +21,7 @@
 
 ### ✦ About Me <img src="./synchronised%20swimmers.gif" width="75" alt="synchronised swimmers gif" />
 
-Background: Founder of I Haven't the Foggiest
+Background: 🛍️ [I Haven't the Foggiest](https://likefoggiest.com) — Founder & Creative Director · WordPress · Elementor · WooCommerce
 Currently: Transitioning into Tech Product Management
 Skills: Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
 Interests: Finding solutions to challenges 
