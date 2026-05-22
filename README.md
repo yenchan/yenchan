@@ -52,14 +52,21 @@ Based: London
 
 ## ✦ Featured Work
 
+### Premium childrenswear brand. Conceptualizing and engineering an e-commerce website
+founded, designed and co-built from scratch. 7 years running a live store with full brand identity, UI/UX design, digital marketing and e-commerce operations.
+`WordPress` `Elementor` `WooCommerce` `Brand Identity` `UI/UX Design`
+
 ### Ice Cream Boutique. Creating a web App
 A JavaScript project focused on logic, stock handling, DOM updates, and interactive user choices.
+`JavaScript` `HTML` `CSS`
 
 ### Aid Relief Recovery. Managing a MYSQL database
-Implementing an iterative database to analyse, understand and improve strategies
+Implementing an iterative database to analyse, understand and improve strategies.
+`MySQL`
 
 ### Monopoly Arbitrage. Building an API
 Mapping CRUD operations to REST methods with structured schema tables. 
+`JavaScript` `API` `REST`
 
 ---
 
