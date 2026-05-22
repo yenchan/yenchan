@@ -21,7 +21,8 @@
 
 ### ✦ About Me <img src="./synchronised%20swimmers.gif" width="75" alt="synchronised swimmers gif" />
 
-Background: 🛍️ [I Haven't the Foggiest](https://likefoggiest.com) — Founder & Creative Director · WordPress · Elementor · WooCommerce
+Background: I Haven't the Foggiest brand. Founder & Creative Director. Designed, and co-built likefoggiest.com- 
+end-to-end web design, brand identity, and e-commerce experience using WordPress · Elementor · WooCommerce
 Currently: Transitioning into Tech Product Management
 Skills: Digital Marketing · JavaScript · API Development · UX Thinking · Data SQL
 Interests: Finding solutions to challenges 
@@ -66,6 +67,7 @@ Mapping CRUD operations to REST methods with structured schema tables.
 
 - [LinkedIn](https://www.linkedin.com/in/yenpchan/)
 - Website: https://likefoggiest.com/
+- Website: https://www.libertashery.com/
 ---
 
 ### ✦ Contribution
